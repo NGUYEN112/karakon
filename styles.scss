@@ -37,7 +37,7 @@ img {
         }
         &-title {
             &-item {
-                font-size: 1.4rem;
+                font-size: 1.4vw;
                 font-family: "Meiryo";
                 color: rgb(89, 90, 92);
                 // line-height: 2.5;
@@ -47,7 +47,7 @@ img {
             }
             &-item:nth-child(2){
                 margin-top: 1rem;
-                font-size: 2.4rem;
+                font-size: 2.4vw;
                 font-family: "Kozuka Gothic Pr6N";
                 color: rgb(0, 184, 223);
                 text-shadow: 0px 2px 3px #fff;
@@ -68,7 +68,7 @@ img {
                 cursor: pointer;
                 padding: 0.5rem;
                 border-radius: 0.5rem;
-                font-size: 1.2rem;
+                font-size: 1.2vw;
                 margin-right: 1.5rem;
             }
             & a:first-child{
@@ -124,7 +124,7 @@ img {
     overflow: hidden;
     &__sidebar {
         float: left;
-        width: 26.05%;
+        width: 26.04%;
         
         &-box {
             margin-bottom: 1.5rem;
@@ -133,6 +133,7 @@ img {
                 color: white;
                 padding: 1.2rem 0.7rem;
                 font-size: 1.4rem;
+                font-size: 1.4vw;
                 line-height: 1.286;
                 border: solid 1px #07a4c5;
                 border-radius: 0.5rem;
@@ -151,6 +152,7 @@ img {
                 margin-bottom: 1rem;
                 & span {
                     font-size: 14px;
+                    font-size: 1.4vw;
                     color: rgb(255, 249, 79);
                     line-height: 2.857;
                     background-color: #f51c6d;
@@ -158,6 +160,7 @@ img {
                 }
                 & .play-button {
                     font-size: 0.7rem;
+                    font-size: 0.7vw;
                     color: #6dcff6;
                     background-color: #e0dfe0;
                     border: solid 1px #c7c7c7;
@@ -168,6 +171,7 @@ img {
                 & a {
                     margin-left: 0.9rem;
                     font-size: 1.4rem;
+                    font-size: 1.4vw;
                     color: rgb(41, 149, 225);
                     line-height: 2.857;
                 }
@@ -176,7 +180,7 @@ img {
     }
     &__content {
         margin-left: 2.9rem;
-        width: 70.94%;
+        width: 70.93%;
         float: left;
     }
 }
@@ -190,8 +194,9 @@ img {
     &__inner {
         margin-left: 2.1rem;
     }
-
     &__background {
+        object-fit: cover;
+        width: 43.17%;
         z-index: 0;
         position: absolute;
         right: 0;
@@ -203,7 +208,9 @@ img {
     &__title {
         position: relative;
         z-index: 2;
-        @include text(4.7rem, rgb(70, 68, 68),1.995);
+        font-family: 'A-OTF Shin Go Pro', sans-serif;
+        @include text(3.2rem, rgb(70, 68, 68),1.995);
+        font-size: 3vw;
         text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
         // font-weight: bold;
         // -webkit-text-stroke-width: 2px;
@@ -213,7 +220,8 @@ img {
         }
     }
     &__title:nth-child(3) {
-        @include text(4.8rem, rgb(255, 90, 160), 1.875)
+        @include text(4rem, rgb(255, 90, 160), 1.875);
+        font-size: 4vw;
     }
 
     &__images {
@@ -222,6 +230,7 @@ img {
         position: relative;
         z-index: 2;
         & img {
+            width: 21.14%;
             float: left;
             margin-right: 1rem;
             border-radius: 2rem;
@@ -231,19 +240,20 @@ img {
     
 }
 
+
 .top-banner {
     margin-top: 2.8rem;
     background-color: #f1ece3;
     border: solid 2px #0daacb;
     &__title {
         text-align: center;
-        @include text(2.4rem,rgb(0, 0, 0) ,1.5 );
+        @include text(2.4vw,rgb(0, 0, 0) ,1.5 );
         text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 
     }
 
     &__title:nth-child(2){
-        @include text(2.4rem,#ff5d9a ,1.5 );
+        @include text(2.4vw,#ff5d9a ,1.5 );
     }
 }
 
@@ -252,14 +262,14 @@ img {
         border: solid 2px #cccccc;
         margin-top: 1rem;
         &-inner {
-            margin: 1.6rem 1.9rem;
+            margin: 1.6rem 1.8rem;
 
         }
         &-title {
-            margin-top: 2.6rem;
-            margin-bottom: 1.7rem;
+            margin-top: 2.6vw;
+            margin-bottom: 1.7vw;
             & span {
-                @include text(3rem,white , 0.8);
+                @include text(3vw,white , 0.8);
                 font-family: Arial, Helvetica, sans-serif;
                 background-color: #fb5d61;
                 padding: 1rem;
@@ -267,7 +277,7 @@ img {
                 border-radius: 0.5rem;
             }
             & a {
-                @include text(3rem, rgb(41, 149, 225), 0.8);
+                @include text(3vw, rgb(41, 149, 225), 0.8);
                 font-family: Arial, Helvetica, sans-serif;
             }
         }
@@ -276,21 +286,22 @@ img {
             overflow: hidden;
             & img {
                 float: left;
-                margin-right: 1.7rem;
-                width: 33.12%;
+                
+                width: 30.84%;
             }
             &-description {
                 float: right;
-                width: 64.36%;
+                width: 62.7%;
+                margin-left: 1.7rem;
                 & h2 {
-                    @include text(1.8rem, rgb(58, 58, 58), 2.667);
+                    @include text(1.8vw, rgb(58, 58, 58), 2.667);
                     background-color: #ffed77;
                     text-align: center;
                     border: solid 2px #ffc550;
                     margin-bottom: 2.5rem;
                 }
                 & h3 {
-                    @include text(1.6rem,rgb(254, 15, 17) ,3);
+                    @include text(1.6vw,rgb(254, 15, 17) ,3);
                     & i {
                         color: #308bb1;
                         margin-right: 1rem;
@@ -310,7 +321,7 @@ img {
         padding: 1rem;
         border: solid 2px #cccccc;
         border-radius: 0.5rem;
-        @include text(2.4rem, rgb(3, 156, 191), 0.75);
+        @include text(2.4vw, rgb(3, 156, 191), 0.75);
         font-weight: bold;
         text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
         & i {
@@ -320,7 +331,7 @@ img {
     }
     &__content {
         margin-top: 0.7rem;
-        @include text(1.4rem, rgb(102, 102, 102),  1.714);
+        @include text(1.4vw, rgb(102, 102, 102),  1.714);
         background-color: #f3f5ee;
         padding: 2.2rem 2.9rem;
     }
@@ -328,10 +339,13 @@ img {
 
 .footer {
     @include text(1.4rem,black , 1.714);
+    font-size: 1.4vw;
     text-align: center;
     background-color: #ffc550;
     padding: 3.3rem 0;
 }
+
+  
 
   
 

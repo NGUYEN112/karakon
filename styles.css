@@ -36,7 +36,7 @@ img {
   float: left;
 }
 .header__logo-title-item {
-  font-size: 1.4rem;
+  font-size: 1.4vw;
   font-family: "Meiryo";
   color: #595a5c;
   text-align: left;
@@ -44,7 +44,7 @@ img {
 }
 .header__logo-title-item:nth-child(2) {
   margin-top: 1rem;
-  font-size: 2.4rem;
+  font-size: 2.4vw;
   font-family: "Kozuka Gothic Pr6N";
   color: #00b8df;
   text-shadow: 0px 2px 3px #fff;
@@ -61,7 +61,7 @@ img {
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   margin-right: 1.5rem;
 }
 .header__contact-item a:first-child {
@@ -106,7 +106,7 @@ img {
 }
 .body__sidebar {
   float: left;
-  width: 26.05%;
+  width: 26.04%;
 }
 .body__sidebar-box {
   margin-bottom: 1.5rem;
@@ -116,6 +116,7 @@ img {
   color: white;
   padding: 1.2rem 0.7rem;
   font-size: 1.4rem;
+  font-size: 1.4vw;
   line-height: 1.286;
   border: solid 1px #07a4c5;
   border-radius: 0.5rem;
@@ -135,6 +136,7 @@ img {
 }
 .body__sidebar-box-item span {
   font-size: 14px;
+  font-size: 1.4vw;
   color: #fff94f;
   line-height: 2.857;
   background-color: #f51c6d;
@@ -142,6 +144,7 @@ img {
 }
 .body__sidebar-box-item .play-button {
   font-size: 0.7rem;
+  font-size: 0.7vw;
   color: #6dcff6;
   background-color: #e0dfe0;
   border: solid 1px #c7c7c7;
@@ -152,12 +155,13 @@ img {
 .body__sidebar-box-item a {
   margin-left: 0.9rem;
   font-size: 1.4rem;
+  font-size: 1.4vw;
   color: #2995e1;
   line-height: 2.857;
 }
 .body__content {
   margin-left: 2.9rem;
-  width: 70.94%;
+  width: 70.93%;
   float: left;
 }
 
@@ -171,6 +175,8 @@ img {
   margin-left: 2.1rem;
 }
 .banner__background {
+  object-fit: cover;
+  width: 43.17%;
   z-index: 0;
   position: absolute;
   right: 0;
@@ -180,18 +186,21 @@ img {
 .banner__title {
   position: relative;
   z-index: 2;
-  font-size: 4.7rem;
+  font-family: "A-OTF Shin Go Pro", sans-serif;
+  font-size: 3.2rem;
   color: #464444;
   line-height: 1.995;
+  font-size: 3vw;
   text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 .banner__title span {
   color: #e50c5d;
 }
 .banner__title:nth-child(3) {
-  font-size: 4.8rem;
+  font-size: 4rem;
   color: #ff5aa0;
   line-height: 1.875;
+  font-size: 4vw;
 }
 .banner__images {
   margin-bottom: 2.6rem;
@@ -200,6 +209,7 @@ img {
   z-index: 2;
 }
 .banner__images img {
+  width: 21.14%;
   float: left;
   margin-right: 1rem;
   border-radius: 2rem;
@@ -212,13 +222,13 @@ img {
 }
 .top-banner__title {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 2.4vw;
   color: black;
   line-height: 1.5;
   text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 .top-banner__title:nth-child(2) {
-  font-size: 2.4rem;
+  font-size: 2.4vw;
   color: #ff5d9a;
   line-height: 1.5;
 }
@@ -228,14 +238,14 @@ img {
   margin-top: 1rem;
 }
 .top__item-inner {
-  margin: 1.6rem 1.9rem;
+  margin: 1.6rem 1.8rem;
 }
 .top__item-title {
-  margin-top: 2.6rem;
-  margin-bottom: 1.7rem;
+  margin-top: 2.6vw;
+  margin-bottom: 1.7vw;
 }
 .top__item-title span {
-  font-size: 3rem;
+  font-size: 3vw;
   color: white;
   line-height: 0.8;
   font-family: Arial, Helvetica, sans-serif;
@@ -245,7 +255,7 @@ img {
   border-radius: 0.5rem;
 }
 .top__item-title a {
-  font-size: 3rem;
+  font-size: 3vw;
   color: #2995e1;
   line-height: 0.8;
   font-family: Arial, Helvetica, sans-serif;
@@ -256,15 +266,15 @@ img {
 }
 .top__item-content img {
   float: left;
-  margin-right: 1.7rem;
-  width: 33.12%;
+  width: 30.84%;
 }
 .top__item-content-description {
   float: right;
-  width: 64.36%;
+  width: 62.7%;
+  margin-left: 1.7rem;
 }
 .top__item-content-description h2 {
-  font-size: 1.8rem;
+  font-size: 1.8vw;
   color: #3a3a3a;
   line-height: 2.667;
   background-color: #ffed77;
@@ -273,7 +283,7 @@ img {
   margin-bottom: 2.5rem;
 }
 .top__item-content-description h3 {
-  font-size: 1.6rem;
+  font-size: 1.6vw;
   color: #fe0f11;
   line-height: 3;
   border-bottom: solid 2px #cccccc;
@@ -292,7 +302,7 @@ img {
   padding: 1rem;
   border: solid 2px #cccccc;
   border-radius: 0.5rem;
-  font-size: 2.4rem;
+  font-size: 2.4vw;
   color: #039cbf;
   line-height: 0.75;
   font-weight: bold;
@@ -303,7 +313,7 @@ img {
 }
 .info__content {
   margin-top: 0.7rem;
-  font-size: 1.4rem;
+  font-size: 1.4vw;
   color: #666666;
   line-height: 1.714;
   background-color: #f3f5ee;
@@ -314,6 +324,7 @@ img {
   font-size: 1.4rem;
   color: black;
   line-height: 1.714;
+  font-size: 1.4vw;
   text-align: center;
   background-color: #ffc550;
   padding: 3.3rem 0;
