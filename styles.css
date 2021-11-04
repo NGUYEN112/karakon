@@ -110,6 +110,7 @@ img {
   background-color: transparent;
   border: none;
   color: #cccccc;
+  display: none;
 }
 .body__sidebar {
   float: left;
