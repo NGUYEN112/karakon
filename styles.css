@@ -104,6 +104,13 @@ img {
   margin-top: 2rem;
   overflow: hidden;
 }
+.body__sidebutton {
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  color: #cccccc;
+}
 .body__sidebar {
   float: left;
   width: 26.04%;
@@ -163,6 +170,40 @@ img {
   margin-left: 2.9rem;
   width: 70.93%;
   float: left;
+}
+@media (max-width: 768px) {
+  .body {
+    position: relative;
+  }
+  .body__sidebutton {
+    display: block;
+    left: 101%;
+    transition: 0.5s;
+    top: 0.5%;
+  }
+  .body .showcontent {
+    position: absolute;
+    background-color: #00b2db;
+    border-radius: 0.5rem;
+    transform: rotate(180deg);
+    transition: 0.5s;
+  }
+  .body__sidebar {
+    position: absolute;
+    left: -26.04%;
+    z-index: 4;
+    background-color: white;
+    transition: 0.5s;
+  }
+  .body .show {
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+  }
+  .body__content {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .banner {

@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <!-- font -->
     <link href="http://fonts.cdnfonts.com/css/a-otf-shin-go-pro" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -46,6 +49,7 @@
     <section class="body">
         <div class="container body__inner">
             <div class="body__sidebar">
+                <button class="body__sidebutton"><i class="fal fa-chevron-double-right fa-2x"></i></i></button>
                 <div class="body__sidebar-box">
                     <h3 class="body__sidebar-box-title"><i class="fas fa-star"></i> カラコンランキング総合順位</h3>
                     <ul class="body__sidebar-box-list">
@@ -187,6 +191,12 @@
     <footer class="footer">
         Copyright (C) ●●●. All Rights Reserved.
     </footer>
+    <script>
+        $('.body__sidebutton').click(function(){
+            $('.body__sidebar').toggleClass("show");
+            $('.body__sidebutton').toggleClass("showcontent");
+        })
+    </script>
 </body>
 
 </html>
